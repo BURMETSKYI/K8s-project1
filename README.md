@@ -1,1 +1,1 @@
-# K8s-voting-app
+# Kubernetes CI/CD Pipeline Using Jenkins | DevOps Tutorial/Project - 2023
