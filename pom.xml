@@ -63,22 +63,16 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-                <execution>
-                    <id>repackage</id>
-                    <goals>
-                        <goal>repackage</goal>
-                    </goals>
-                    <configuration>
-                        <finalName>demoapp</finalName>
-                    </configuration>
-                </execution>
-            </executions>
-			</plugin>
+		    <plugin>
+		        <groupId>org.springframework.boot</groupId>
+		        <artifactId>spring-boot-maven-plugin</artifactId>
+		        <version>3.0.4</version>
+		        <configuration>
+		            <mainClass>com.example.demo.DemoApplication</mainClass>  <!-- Replace with your main class -->
+		        </configuration>
+		    </plugin>
 		</plugins>
+
 	</build>
 
 </project>
