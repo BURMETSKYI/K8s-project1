@@ -8,8 +8,8 @@ RUN mvn clean package
 FROM eclipse-temurin:17.0.6_10-jdk
 WORKDIR /app
 
-# Copy the JAR from the build stage to the app directory
-COPY --from=build /app/target/demoapp-1.0.0.jar /app/
+# Copy and rename the JAR file to demoapp.jar
+COPY --from=build /app/target/demoapp-1.0.0.jar /app/demoapp.jar
 
 EXPOSE 8080
-CMD ["java", "-jar", "/app/demoapp-1.0.0.jar"]
+CMD ["java", "-jar", "/app/demoapp.jar"]
