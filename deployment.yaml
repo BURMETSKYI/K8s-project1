@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: complete_production-e2e-app
+      app: complete-production-e2e-app
   template:
     metadata:
       labels:
-        app: complete-production-e2e-appp
+        app: complete-production-e2e-app
     spec:
       containers:
       - name: complete-production-e2e-app
@@ -20,5 +20,4 @@ spec:
             memory: "256Mi"
             cpu: "500m"
         ports:
-          - containerPort: 8080
-      
+        - containerPort: 8080
