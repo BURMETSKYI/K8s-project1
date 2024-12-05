@@ -1,5 +1,7 @@
 # Kubernetes CI/CD Pipeline Using Jenkins | DevOps Tutorial/Project - 2023
 
+<img width="1189" alt="Screenshot 2024-12-05 at 12 05 11" src="https://github.com/user-attachments/assets/75f54394-531c-409d-b9ad-5bd7d252bdf1">
+
 https://docs.dman.cloud/tutorial-documentation/install-jenkins/
 https://github.com/dmancloud/complete-prodcution-e2e-pipeline
 
